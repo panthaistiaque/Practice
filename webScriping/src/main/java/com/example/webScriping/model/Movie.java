@@ -11,6 +11,15 @@ public class Movie {
     private String length;
     private String[] genera;
     private String plot;
+    private String poster;
+
+    public String getPoster() {
+        return poster;
+    }
+
+    public void setPoster(String poster) {
+        this.poster = poster;
+    }
 
     public String getPlot() {
         return plot;
